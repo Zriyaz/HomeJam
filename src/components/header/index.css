@@ -113,3 +113,10 @@
     align-content: space-between;
   }
 }
+
+@media screen and (max-width: 1263px) {
+  .circleContainer{
+    margin-top: 10rem;
+  }
+}
+
