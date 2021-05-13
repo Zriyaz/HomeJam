@@ -1,0 +1,115 @@
+.hero{
+    height: 115vh;
+    background: linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 67.53%, #0A0B1A 85.33%),url("../../assets/couple3.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;   
+  }
+
+  .link-style{
+    font-family: Open Sans !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 26px;
+    cursor: pointer;
+    color: #ffffff !important;
+  }
+
+  .brand-logo{
+      width: 85px;
+      height: 44px;
+  }
+
+  .hero-content{
+      padding: 10px;
+      margin: 3rem 0 0 5rem;
+      opacity: 0.7;
+  }
+  .hero-content h1{
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 96px;
+    color: #ffffff;
+  }
+
+  .hero-content p{
+    max-width: 550px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    opacity: 0.6;
+  }
+
+  .circleContainer{
+      margin-top: 6rem;
+      width: 400px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: s;
+  }
+
+  .circle{
+    position: relative;   
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    font-size: 20px;
+    opacity: 0.3;
+}
+.innerContaint{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 24px;
+}
+.heart{
+    color: #005eff;
+}
+
+
+/* ======================MEDIA QUERY=========================== */
+
+@media screen and (max-width: 900px) {
+  .hero{
+    height: 135vh;
+  }
+  .hero-content{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 10rem;
+    margin-left: 1rem;
+    opacity: 0.6;
+  }
+  .hero-content h1{
+    font-size: 50px;
+  }
+  .hero-content p{
+    font-size: 18px;
+    max-width: 550px;
+  }
+  .circleContainer {
+    margin-top: 5rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: s;
+    background: linear-gradient(#101116, #101124, #232336);
+    align-content: space-between;
+  }
+}

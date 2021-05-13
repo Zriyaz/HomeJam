@@ -1,0 +1,143 @@
+.reviewsContainer{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    background: linear-gradient(#101116, #101124, #232336);
+}
+
+.bothArraowContainer{
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewsText{
+    margin-left: 5rem;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+
+}
+.bothArrow{
+    margin-right: 5rem;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.left{
+    margin-left: 15px;
+}
+.right{
+    margin-left: 15px;
+}
+
+.reviewCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.reviewCardSection{
+    width: 360px;
+    height: 248px;
+    position: relative;
+}
+
+.reviewBack{
+    position: absolute;
+    left: 2.93%;
+    right: 0%;
+    top: 0%;
+    bottom: 2.63%;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(143.63deg, #276C73 5.43%, #5293E8 110.6%);
+    border-radius: 16px;
+}
+.reviewFront{
+    position: absolute;
+    left: 0%;
+    right: 2.17%;
+    top: 3.12%;
+    bottom: 0%;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    background: #0A0B1A;
+    border: 2px solid #E5AF56;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.profileContainer{
+    display: flex;
+}
+.reviewerImg{
+    width: 48px;
+    height: 48px;
+}
+.reviewerName{
+    margin-left: 2rem;
+}
+.reviewerName h5{
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF
+}
+
+.flagContainer{
+    display: flex;
+}
+
+.countryImg{
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+.flagContainer p{
+    font-family: Nunito;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    color: #E5C558;
+}
+
+.reviewWords{
+   margin-top: 1rem;
+   width: 318px;
+   height: 96px;
+}
+
+.reviewWords p{
+    text-align: justify;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+
+
+@media screen and (max-width: 766px) {
+    .reviewsContainer{
+       width: 100%;
+       height: auto;
+       background: linear-gradient(#101116, #101124, #232336);
+    }
+    
+}
