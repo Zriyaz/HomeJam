@@ -39,8 +39,8 @@ const Card = () => {
           <div className="front">
             <img src={img2} alt="img" />
             <div className="cardTextSection">
-              <div className="singType">Fork</div>
-              <p className="name">Benny Dayal</p>
+              <div className="singType">Bollywood</div>
+              <p className="name">Vijay Yesudas</p>
               <div className="moreInfo">
                 <p className="arrow">
                   more info <i class="fas fa-arrow-right"></i>
@@ -58,7 +58,7 @@ const Card = () => {
             <img src={img3} alt="img" />
             <div className="cardTextSection">
               <div className="singType">Fork</div>
-              <p className="name">Benny Dayal</p>
+              <p className="name">Andrea Jeremiah</p>
               <div className="moreInfo">
                 <p className="arrow">
                   more info <i class="fas fa-arrow-right"></i>
@@ -75,8 +75,8 @@ const Card = () => {
           <div className="front">
             <img src={img4} alt="img" />
             <div className="cardTextSection">
-              <div className="singType">Fork</div>
-              <p className="name">Benny Dayal</p>
+              <span className="singType">Fork</span>
+              <p className="name">Shilpa Rao</p>
               <div className="moreInfo">
                 <p className="arrow">
                   more info <i class="fas fa-arrow-right"></i>
